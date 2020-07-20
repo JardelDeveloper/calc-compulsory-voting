@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practical Activity</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div id="title">
+      <h1>Você pode votar?</h1>
+    </div>
+    <form>
+      <div id="diName">
+        <p class="pCustom">
+          <label for="inputName">
+            Nome:
+            <input
+              type="text"
+              id="inputName"
+              class="inputCustom"
+              placeholder="Informe o seu nome"
+            />
+          </label>
+        </p>
+      </div>
+      <div id="divYear">
+        <p class="pTeste">
+          <label for="inputYear">
+            Ano de nascimento:
+            <input
+              type="text"
+              id="inputYear"
+              class="inputCustom"
+              value=""
+              placeholder="Informe o ano"
+            />
+          </label>
+        </p>
+        <p id="textYearly"></p>
+      </div>
+      <div id="buttons">
+        <label for="inputButton">
+          <input
+            type="reset"
+            class="buttonCustom"
+            value="APAGAR"
+            id="buttonReset"
+          />
+          <input
+            type="submit"
+            class="buttonCustom"
+            value="CALCULAR"
+            id="buttonCalc"
+          />
+        </label>
+      </div>
+    </form>
+  </body>
+  <script src="./js/scripts.js"></script>
+</html>
